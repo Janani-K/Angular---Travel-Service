@@ -1,0 +1,4 @@
+<p>search works!</p>
+<input type="text" [(ngModel)]='city'>
+<app-fetch-operator [searchCity]="city" (operator)='onChange($event)'></app-fetch-operator>
+{{response}}   
